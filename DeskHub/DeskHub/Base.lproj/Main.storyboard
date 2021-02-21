@@ -720,7 +720,7 @@
                             <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-pq-Pf7">
                                 <rect key="frame" x="0.0" y="242" width="66" height="28"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSAdvanced" id="MSs-It-OMm"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="topLeft" imageScaling="proportionallyDown" image="NSAdvanced" id="MSs-It-OMm"/>
                             </imageView>
                         </subviews>
                     </view>
