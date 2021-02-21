@@ -660,7 +660,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="DeskHub Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="DeskHub Help" keyEquivalent="?" allowsKeyEquivalentWhenHidden="YES" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -691,21 +691,17 @@
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <toolbar key="toolbar" implicitIdentifier="93B821E8-5587-459A-8542-D804FA30E994" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="FKP-uf-vQ8">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="v9k-vQ-nKD"/>
-                                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="VCe-sY-lDK"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="TwW-06-Ywk"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="aOm-Sw-Ww5"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="1Fv-Ap-YRB"/>
-                                <toolbarItem implicitItemIdentifier="61996995-C409-4A2B-AC81-F7D100445D5F" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" id="PgE-bc-LnP">
-                                    <size key="minSize" width="32" height="32"/>
-                                    <size key="maxSize" width="32" height="32"/>
+                                <toolbarItem implicitItemIdentifier="61996995-C409-4A2B-AC81-F7D100445D5F" label="Settings" paletteLabel="Settings" tag="-1" image="NSAdvanced" id="PgE-bc-LnP">
+                                    <size key="minSize" width="22" height="22"/>
+                                    <size key="maxSize" width="22" height="22"/>
                                 </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="v9k-vQ-nKD"/>
-                                <toolbarItem reference="VCe-sY-lDK"/>
                                 <toolbarItem reference="1Fv-Ap-YRB"/>
-                                <toolbarItem reference="TwW-06-Ywk"/>
+                                <toolbarItem reference="PgE-bc-LnP"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -883,6 +879,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
         <image name="NSSmartBadgeTemplate" width="14" height="14"/>
         <image name="list.bullet" catalog="system" width="16" height="12"/>
         <image name="newspaper.fill" catalog="system" width="18" height="16"/>
