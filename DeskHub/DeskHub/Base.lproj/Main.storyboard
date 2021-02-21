@@ -710,13 +710,18 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-0T-8tW">
-                                <rect key="frame" x="-48" y="223" width="118" height="32"/>
+                                <rect key="frame" x="-41" y="221" width="119" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="square" title="               Excel" bezelStyle="shadowlessSquare" image="arrow.up" catalog="system" imagePosition="overlaps" alignment="center" borderStyle="border" inset="2" id="oWA-WV-uzT">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
+                            <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-pq-Pf7">
+                                <rect key="frame" x="0.0" y="242" width="66" height="28"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSAdvanced" id="MSs-It-OMm"/>
+                            </imageView>
                         </subviews>
                     </view>
                 </viewController>
@@ -726,6 +731,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
         <image name="arrow.up" catalog="system" width="13" height="14"/>
     </resources>
 </document>
